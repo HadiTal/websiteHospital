@@ -1,0 +1,496 @@
+/*------=======First size mobile==========*/
+
+
+/*------First Navbar website------------*/
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+nav .links {
+    position: fixed;
+    z-index: 9;
+    background-color: #00b894;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 100%;
+    width: auto;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+nav .icon-burger {
+    display: block;
+    transition: all 0.5s;
+}
+
+nav :checked~.links {
+    bottom: 0;
+}
+
+nav {
+    justify-content: center;
+}
+
+.logo {
+    float: none;
+    width: auto;
+    justify-content: center;
+}
+
+nav :checked~.icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(230deg);
+}
+
+nav :checked~.icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-230deg);
+}
+
+nav :checked~.icon-burger .line:nth-child(2) {
+    opacity: 0;
+}
+
+nav .logo {
+    width: 40%;
+}
+
+.nav-menu {
+    top: -400px;
+    position: fixed;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    right: 5px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+    background-image: url(../CSS/images/show-case.png);
+}
+
+.nav-menu.active {
+    top: 52px;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.navbar {
+    justify-content: space-between;
+    font-weight: bolder;
+    background-image: url(../CSS/images/show-case.png);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+/*------End Navbar website------------*/
+
+
+/*-First Show Case web Site -----*/
+
+.showcase-content {
+    width: 100%;
+    height: 70vh;
+}
+
+.titr-showcase {
+    font-size: 1.9rem;
+    font-family: font-yekan;
+    font-weight: bolder;
+}
+
+.paragraph-showcase {
+    line-height: 3rem;
+    text-align: justify;
+    font-family: font-yekan;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+.btn-showcase {
+    background-color: #fff;
+    color: #178066;
+    border-radius: 5%;
+    border: solid 1px#fff;
+    font-family: font-yekan;
+    cursor: pointer;
+    margin: 0.5em 0;
+    padding: 3% 5%;
+}
+
+
+/*-End Show Case web Site -----*/
+
+
+/*-----First department_section----*/
+
+.text_department {
+    line-height: 2.5em;
+    font-size: 1.3em;
+}
+
+.heaing_department {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.row_department {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.iteam_department {
+    width: 100%;
+}
+
+
+/*-----End department_section----*/
+
+
+/*-----First AboutUs-section----*/
+
+.container-aboutUs {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box-text-aboutUs {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.pic-about-us {
+    width: 95%;
+    border-radius: 5px;
+    filter: grayscale(50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.heading-aboutus-footer {
+    font-size: 1.8rem;
+    font-family: font-yekan;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-right: 11px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.aboutus-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.heading-KhabarName-footer {
+    font-size: 1.8rem;
+    font-family: font-yekan;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-right: 11px;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+
+/*-----End AboutUs-section----*/
+
+
+/*-----First doctrors-section----*/
+
+.doctor-section {
+    width: 100%;
+    height: 350%;
+    background-color: #178066;
+    display: block;
+}
+
+.heading-doctor {
+    font-family: font-yekan;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+}
+
+.doctors-container {
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.box-doctrors {
+    width: 27.5rem;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 2em 0;
+}
+
+.text-doctors {
+    line-height: 3.1rem;
+    font-family: font-yekan;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    color: #ffff;
+    width: 80%;
+    margin: auto;
+}
+
+.container-social-media {
+    width: 150px;
+    height: 38px;
+    z-index: 2;
+    position: absolute;
+    top: 95%;
+    right: 23%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f6fa;
+}
+
+
+/*-----End doctrors-section----*/
+
+
+/*---First container_contactUS--*/
+
+.content-contactUs {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_contactUS {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    width: 95%;
+}
+
+.numberPhone {
+    width: 95%;
+}
+
+.email {
+    width: 95%;
+}
+
+.messages {
+    width: 95%;
+}
+
+.send-btn {
+    width: 95%;
+}
+
+.box-content-contactUs {
+    display: none;
+}
+
+.container {
+    margin: auto;
+    width: 50px;
+}
+
+
+/*---End container_contactUS--*/
+
+
+/*---First Slider--*/
+
+.container-slider {
+    margin: auto;
+    width: 90%;
+}
+
+.slider {
+    width: 100%;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.card-thumb {
+    width: 160%;
+    border-radius: 10px;
+}
+
+.card-body {
+    width: 100%;
+    min-height: auto;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-slider {
+    font-size: 1em;
+}
+
+.review {
+    width: 90%;
+}
+
+.client-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/*---End Slider--*/
+
+
+/*---First footer--*/
+
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #178066;
+    direction: rtl;
+}
+
+.section-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-right: 3%;
+}
+
+.social {
+    width: 100%;
+    height: 60%;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-footer .heading-section1 {
+    font-size: 2rem;
+    font-family: font-yekan;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: normal;
+    margin-right: 11px;
+}
+
+.conact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conact {
+    padding: 1.5em;
+    margin: 9px 0;
+}
+
+.logo-conact {
+    width: 5%;
+}
+
+.contact {
+    width: 50%;
+    height: 20%;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.text-ontact {
+    font-size: 1.4em;
+    font-family: font-yekan;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social {
+    width: 100%;
+    height: 30%;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social-container {
+    width: 15%;
+}
+
+.social {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.links a {
+    width: 100%;
+}
+
+.input-email {
+    width: 100%;
+}
+
+.bottom-details {
+    width: 100%;
+    height: 80px;
+    padding: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/*---End footer--*/

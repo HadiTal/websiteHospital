@@ -1,0 +1,93 @@
+/*-End Show Case web Site -----*/
+
+.showcase-content {
+    width: 90%;
+    height: 50vh;
+}
+
+
+/*-End Show Case web Site -----*/
+
+
+/*-----First AboutUs-section----*/
+
+.box-text-aboutUs {
+    flex: 1.3;
+    display: flex;
+}
+
+.box-pic-aboutus {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic-about-us {
+    width: 100%;
+    border-radius: 5px;
+    filter: grayscale(50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.aboutus-section {
+    height: 20%;
+}
+
+.box-doctrors {
+    width: 32%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 2em 0;
+}
+
+
+/*-----First AboutUs-section----*/
+
+
+/*---First container_contactUS--*/
+
+.container-social-media {
+    width: 150px;
+    height: 38px;
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    right: 23%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f6fa;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.name {
+    width: 95%;
+}
+
+.numberPhone {
+    width: 95%;
+}
+
+.email {
+    width: 95%;
+}
+
+.messages {
+    width: 95%;
+}
+
+.send-btn {
+    width: 95%;
+}
+
+.map {
+    height: 465px;
+    margin-top: 9%;
+}
+
+
+/*---End container_contactUS--*/

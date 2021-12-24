@@ -1,0 +1,85 @@
+/*------=======First size smartphone - Tablet==========*/
+
+.lansScape {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.normal {
+    display: none;
+}
+
+.tablet {
+    display: block;
+}
+
+.wideScreen {
+    display: none;
+}
+
+.Deskatap {
+    display: none;
+}
+
+
+/*------=======First Navbar Menu==========*/
+
+.nav-menu {
+    top: -400px;
+    opacity: 0;
+    position: fixed;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    right: 5px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 0;
+    background-image: url(../CSS/images/show-case.png);
+}
+
+.nav-menu.active {
+    top: 52px;
+    opacity: 1;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.navbar {
+    justify-content: space-between;
+    font-weight: bolder;
+    background-image: url(../CSS/images/show-case.png);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+/*------=======End Navbar Menu==========*/
+
+
+/*------=======End size smartphone - Tablet==========*/
+
+.showcase-content {
+    width: 70%;
+}

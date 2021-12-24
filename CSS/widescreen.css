@@ -1,0 +1,34 @@
+/*------=======First size wideScreen==========*/
+
+.lansScape {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.normal {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+.wideScreen {
+    display: block;
+}
+
+.Deskatap {
+    display: none;
+}
+
+
+/*---First showCase web site--*/
+
+
+/*---End showCase web site--*/
+
+
+/*------======= size wideScreen==========*/
